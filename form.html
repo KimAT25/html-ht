@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social test</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home page</a>
+    </nav>
+    <header>
+        <h1>French or German car?</h1>
+    </header>
+    <form action="https://formspree.io/xaywlljk"
+        method="POST">
+        <section>
+            <h3>1. What car you will choose?</h3>
+        </section>
+        <label>
+            <input type="radio" name="CAR" value="Peugeot 508">Peugeot 508
+        </label>
+        <label>
+            <input type="radio" name="CAR" value="VW Passat">WV Passat
+        </label>
+        <br>
+        <section>
+            <h3>2. Why you choose this car?</h3>
+        </section>
+        <label>
+            I choose car, because:
+            <br>
+            <input type="text" name="comment" placeholder="comment" style="width: 350px; height: 150px;">
+        </label>
+        <section>
+            <h3>3. You like more(please mark)?</h3>
+        </section>
+        <label>
+            <input type="checkbox" name="price">Price
+        </label>
+        <label>
+            <input type="checkbox" name="parameters">Parameters
+        </label>
+        <label>
+            <input type="checkbox" name="design">Design
+        </label>
+        <label>
+            <input type="checkbox" name="produced-country">Produced Country
+        </label>
+        <section>
+            <h3>3. My contacts</h3>
+        </section>
+        <label>
+            first and last name:<input type="text" name="first-and-last-name" placeholder="First and Last name">
+        </label>
+        <br>
+        <br>
+        <label>
+            email:<input type="email" name="email" placeholder="example@mail.com">
+        </label>
+        <br>
+        <br>
+        <label>
+            phone number:<input type="tel" name="phone" placeholder="+380XXXXXXXX">
+        </label>
+        <br>
+        <br>
+        <label>Gender</label>
+        <br>
+        <label>
+            <input type="radio" name="gender" value="Male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="Female">Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="Other">Other
+        </label>
+        <br>
+        <br>
+        <label>Do you like our comparisons?</label>
+        <br>
+        <input list ="Comparisons" name="Comparison" style="width: 50px;">
+        <datalist id="Comparisons">
+            <option value="YES">
+            <option value="NO">
+        </datalist>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Delete">
+    </form>
+
+    <footer>
+        <p>© “KimAT” all rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
